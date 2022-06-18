@@ -1,0 +1,4 @@
+# this file is the future of python packaging, but not yet as feature complete as setup.cfg
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
