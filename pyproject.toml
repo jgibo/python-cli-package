@@ -1,4 +1,11 @@
-# this file is the future of python packaging, but not yet as feature complete as setup.cfg
+[project]
+name = "mypackage"
+version = "1.0.0"
+dependencies = []
+
+[project.scripts]
+my-script = "mypackage.main:main"
+
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = ["setuptools", "wheel"]
